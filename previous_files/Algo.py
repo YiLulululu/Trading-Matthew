@@ -4,11 +4,11 @@ import datetime
 import zipfile
 import os
 import numpy as np
-import csv
+#import csv
 
-os.chdir("/Users/yle1988217/Desktop/Algo")
+os.chdir("/Users/Kelraina/Desktop/Algo")
 quandl.ApiConfig.api_key="ZKWjVGUk-dp4sWoz5buP"
-MSFT_data = quandl.get("EOD/MSFT", start_date="2018-07-23", end_date="2018-08-10")
+#MSFT_data = quandl.get("EOD/MSFT", start_date="2018-07-23", end_date="2018-08-10")
 #data.iloc[0:5,4:6]
 
 class StockPrice:
